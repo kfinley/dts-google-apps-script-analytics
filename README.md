@@ -9,7 +9,7 @@ Download a copy of the latest copy of the Analytics Script Script Editor autocom
 The API definitions and documents are from Google Apps Script Script Editor autocomplete json document [1].
 
 ```sh
-cat Analytics_v3.json | node generator.js # Pipe the autocomplete json document from Script Editor into the generator. New d.ts files are written to google-apps-script-analytics/
+cat Analytics_v3.json | node generator.ts # Pipe the autocomplete json document from Script Editor into the generator. New d.ts files are written to google-apps-script-analytics/
 ```
 
 
